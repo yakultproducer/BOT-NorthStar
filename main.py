@@ -11,19 +11,6 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 MONGODB_TOKEN = os.getenv("MONGODB_TOKEN")
 
-# # azure secret
-# from azure.identity import DefaultAzureCredential
-# from azure.keyvault.secrets import SecretClient
-
-# # Tokens access
-# credential = DefaultAzureCredential()
-# keyvault_url = 'https://northstar-key.vault.azure.net'
-
-# # Create a SecretClient using the credential
-# secret_client = SecretClient(vault_url=keyvault_url, credential=credential)
-# # Retrieve the secret
-# DISCORD_TOKEN = secret_client.get_secret("DISCORD-TOKEN").value
-# MONGODB_TOKEN = secret_client.get_secret("MONGODB-TOKEN").value
 
 cluster = pymongo.MongoClient(MONGODB_TOKEN)
 db = cluster.NorthStarDB
