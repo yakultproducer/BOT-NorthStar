@@ -4,7 +4,6 @@ from discord.commands import Option
 from discord.ext import commands
 from discord.ui import Button, View
 
-from captcha.image import ImageCaptcha
 
 import os
 import string

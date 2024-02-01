@@ -3,7 +3,6 @@ from discord.commands import slash_command
 from discord.commands import Option
 from discord.ext import commands
 
-from captcha.image import ImageCaptcha
 
 import os
 import string
@@ -11,7 +10,6 @@ import random
 import asyncio
 import datetime
 
-guild_id = 874869151892652103
 
 class Utils(commands.Cog):
     """

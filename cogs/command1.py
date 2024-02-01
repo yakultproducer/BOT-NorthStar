@@ -4,16 +4,14 @@ from discord.commands import Option
 from discord.ext import commands, tasks
 from discord.ui import Button
 
-from captcha.image import ImageCaptcha
 
 import os
 import string
 import random
 import asyncio
-# import emoji
+
 from datetime import datetime, timedelta
 
-guild_id = 874869151892652103
 
 # Poll View
 
@@ -51,7 +49,7 @@ class Utils(commands.Cog):
     -   Poll-create
     -   
     '''
-    @slash_command(name='ping', description='return bot latency', guilds_ids=[guild_id])
+    @slash_command(name='ping', description='return bot latency')
     async def ping(self, ctx):
         """
         Command:     
@@ -62,7 +60,7 @@ class Utils(commands.Cog):
         """
         await ctx.respond(f"PONG! {round(self.bot.latency * 1000)}ms")
 
-    @slash_command(name="poll-create", description="Create a poll", guilds_ids=[guild_id])
+    @slash_command(name="poll-create", description="Create a poll")
     async def poll_create(
             self, ctx,
             question: Option(str, required=True, description="The question for the poll."),
@@ -273,7 +271,7 @@ class Utils(commands.Cog):
         button1.callback = join
 
 
-    @slash_command(name="test", description="test", guilds_ids=[guild_id])
+    @slash_command(name="test", description="test")
     async def start_timer(self,ctx, li):
         return
             
