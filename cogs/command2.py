@@ -280,7 +280,7 @@ class Moderation(
         if audit_logs:
             entry = audit_logs[0]
             time_difference = (
-                datetime.datetime.utcnow().replace(tzinfo=None)
+                datetime.utcnow().replace(tzinfo=None)
                 - entry.created_at.replace(tzinfo=None)
             ).total_seconds()
             if (
