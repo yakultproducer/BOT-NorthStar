@@ -388,7 +388,7 @@ class Moderation(
     """
 
     @conf_swch.error
-    async def not_owner_error(ctx, error):
+    async def not_owner_error(self, ctx, error):
         if isinstance(error, commands.errors.CheckFailure):
             await ctx.respond("Only server owner can use this command.", ephemeral=True)
         elif isinstance(error, commands.CommandOnCooldown):
