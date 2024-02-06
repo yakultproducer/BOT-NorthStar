@@ -12,8 +12,7 @@ This Discord bot that have the following functions:
 - Game of Tic Tac Toe
 - Game of Connect Three
 
-#### There is a control panel website for this Discord Bot Project:<br><sub>\*The website might require 2 minutes to load*</sub>
-
+#### There is a control panel website for this Discord Bot Project:<br>
 
 [GitHub repository](https://github.com/yakultproducer/WEB-NorthStar)
 <br>
