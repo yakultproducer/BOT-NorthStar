@@ -1,14 +1,14 @@
-# NorthStar's Discord Bot
+# NorthStar Discord Bot
 
 ## Description
-This is a project to make me involved more into python, API, Libraries and try a little bit of Database. Since this is my first ever project, therefore there are still many improvement that can be made. 
+This is a project to make me involved more into Python, API, Libraries, and try a little bit of Database. Since this is my first-ever project, therefore there are still many improvements that can be made. 
 
 ## Functions
-This Discord bot that have the following functions:
+This Discord bot has the following functions:
 - Chat Logging
 - Verify New Member
 - Poll 
-- Get League of Legend Player's Info
+- Get League of Legends Player's Info
 - Game of Tic Tac Toe
 - Game of Connect Three
 
@@ -25,13 +25,13 @@ This Discord bot that have the following functions:
   - [X] Displaying the right options
   - [X] Timer
   - [X] Printing result
-- [X] League of Legend player info
+- [X] League of Legends player info
 - [X] Games
   - [X] Tic Tac Toe
   - [X] Connect Three
 
 
 ### Bugs
-Currently havent discovery any yet
+Currently haven't discovery any yet
 
 
